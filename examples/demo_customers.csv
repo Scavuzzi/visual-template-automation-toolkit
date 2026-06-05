@@ -1,0 +1,51 @@
+name,email,company
+Ada Lovelace,ada.lovelace@example.com,Analytical Engines Ltd
+Grace Hopper,grace.hopper@example.com,Compiler Labs
+Katherine Johnson,katherine.johnson@example.com,Orbital Math Co
+Dorothy Vaughan,dorothy.vaughan@example.com,West Computing Group
+Mary Jackson,mary.jackson@example.com,Aero Structures Inc
+Margaret Hamilton,margaret.hamilton@example.com,Apollo Software Works
+Hedy Lamarr,hedy.lamarr@example.com,Signal Systems
+Annie Easley,annie.easley@example.com,Launch Code Studio
+Joan Clarke,joan.clarke@example.com,Cipher Analytics
+Radia Perlman,radia.perlman@example.com,Network Bridges
+Barbara Liskov,barbara.liskov@example.com,Data Abstractions
+Frances Allen,frances.allen@example.com,Optimizing Compilers
+Evelyn Boyd Granville,evelyn.granville@example.com,Applied Orbitals
+Jean Bartik,jean.bartik@example.com,ENIAC Services
+Adele Goldberg,adele.goldberg@example.com,Smalltalk Systems
+Karen Sparck Jones,karen.jones@example.com,Search Semantics
+Elizabeth Feinler,elizabeth.feinler@example.com,Directory Networks
+Sophie Wilson,sophie.wilson@example.com,Processor Design Co
+Marsha Rhea Williams,marsha.williams@example.com,Query Methods
+Ida Rhodes,ida.rhodes@example.com,Machine Translation Lab
+Erna Schneider Hoover,erna.hoover@example.com,Switching Logic
+Mary Allen Wilkes,mary.wilkes@example.com,LINC Workstations
+Carol Shaw,carol.shaw@example.com,Game Logic Studio
+Susan Kare,susan.kare@example.com,Icon Systems
+Lynn Conway,lynn.conway@example.com,VLSI Methods
+Ruzena Bajcsy,ruzena.bajcsy@example.com,Robotics Vision
+Shafi Goldwasser,shafi.goldwasser@example.com,Crypto Proofs
+Maja Mataric,maja.mataric@example.com,Social Robotics
+Fei-Fei Li,fei-fei.li@example.com,Vision Data Lab
+Joy Buolamwini,joy.buolamwini@example.com,Algorithmic Justice
+Timnit Gebru,timnit.gebru@example.com,Responsible AI Group
+Rediet Abebe,rediet.abebe@example.com,Mechanism Design Lab
+Daniela Rus,daniela.rus@example.com,Distributed Robotics
+Daphne Koller,daphne.koller@example.com,Probabilistic Models
+Regina Honu,regina.honu@example.com,Software Skills Hub
+Kimberly Bryant,kimberly.bryant@example.com,STEM Access
+Reshma Saujani,reshma.saujani@example.com,Coding Education
+Parisa Tabriz,parisa.tabriz@example.com,Security Engineering
+Megan Smith,megan.smith@example.com,Innovation Office
+Leah Culver,leah.culver@example.com,API Products
+Tracy Chou,tracy.chou@example.com,Team Metrics
+Sandi Metz,sandi.metz@example.com,Object Design
+Charity Majors,charity.majors@example.com,Observability Works
+Kelsey Hightower,kelsey.hightower@example.com,Cloud Demo Labs
+Mitchell Baker,mitchell.baker@example.com,Open Web Org
+Limor Fried,limor.fried@example.com,Hardware Learning
+Ayah Bdeir,ayah.bdeir@example.com,Modular Electronics
+Jeri Ellsworth,jeri.ellsworth@example.com,XR Hardware
+Erica Joy Baker,erica.baker@example.com,Engineering Culture
+Safiya Noble,safiya.noble@example.com,Search Equity Lab

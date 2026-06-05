@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Automation Demo CRM</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(860px, calc(100vw - 40px));
+      border: 1px solid #d1d5db;
+      background: #ffffff;
+      padding: 28px;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    button {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .target {
+      display: block;
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+      width: 620px;
+      padding: 18px;
+      border: 1px solid #e5e7eb;
+      background: #f9fafb;
+    }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+
+    input {
+      height: 42px;
+      border: 1px solid #9ca3af;
+      padding: 0 12px;
+      font-size: 16px;
+      background: #ffffff;
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      margin-top: 6px;
+    }
+
+    #savedStatus {
+      display: none;
+    }
+
+    #savedStatus.visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Demo CRM Form</h1>
+
+    <div class="toolbar">
+      <button type="button" aria-label="Customers">
+        <img class="target" src="../assets/images/demo_nav_customers.png" alt="Customers target">
+      </button>
+      <button type="button" aria-label="New customer" onclick="resetForm()">
+        <img class="target" src="../assets/images/demo_button_new_customer.png" alt="New customer target">
+      </button>
+    </div>
+
+    <form id="customerForm" onsubmit="saveCustomer(event)">
+      <div class="field-row">
+        <img class="target" src="../assets/images/demo_label_name.png" alt="Name field target">
+        <input id="name" name="name" autocomplete="off">
+      </div>
+
+      <div class="field-row">
+        <img class="target" src="../assets/images/demo_label_email.png" alt="Email field target">
+        <input id="email" name="email" autocomplete="off">
+      </div>
+
+      <div class="field-row">
+        <img class="target" src="../assets/images/demo_label_company.png" alt="Company field target">
+        <input id="company" name="company" autocomplete="off">
+      </div>
+
+      <div class="actions">
+        <button type="submit" aria-label="Save customer">
+          <img class="target" src="../assets/images/demo_button_save_customer.png" alt="Save customer target">
+        </button>
+        <img id="savedStatus" class="target" src="../assets/images/demo_status_saved.png" alt="Saved target">
+      </div>
+    </form>
+  </main>
+
+  <script>
+    function resetForm() {
+      document.getElementById("customerForm").reset();
+      document.getElementById("savedStatus").classList.remove("visible");
+      document.getElementById("name").focus();
+    }
+
+    function saveCustomer(event) {
+      event.preventDefault();
+      document.getElementById("savedStatus").classList.add("visible");
+    }
+  </script>
+</body>
+</html>

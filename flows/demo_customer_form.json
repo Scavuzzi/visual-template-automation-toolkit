@@ -1,0 +1,47 @@
+{
+  "name": "demo_customer_form",
+  "description": "Fills the demo CRM form using visual templates and row data from a CSV file.",
+  "steps": [
+    {
+      "action": "click_template",
+      "template": "demo_nav_customers.png",
+      "timeout": 10
+    },
+    {
+      "action": "click_template",
+      "template": "demo_button_new_customer.png",
+      "timeout": 10
+    },
+    {
+      "action": "fill_template",
+      "template": "demo_label_name.png",
+      "value": "{{name}}",
+      "offset_x": 250,
+      "timeout": 10
+    },
+    {
+      "action": "fill_template",
+      "template": "demo_label_email.png",
+      "value": "{{email}}",
+      "offset_x": 250,
+      "timeout": 10
+    },
+    {
+      "action": "fill_template",
+      "template": "demo_label_company.png",
+      "value": "{{company}}",
+      "offset_x": 250,
+      "timeout": 10
+    },
+    {
+      "action": "click_template",
+      "template": "demo_button_save_customer.png",
+      "timeout": 10
+    },
+    {
+      "action": "wait_template",
+      "template": "demo_status_saved.png",
+      "timeout": 10
+    }
+  ]
+}

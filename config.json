@@ -1,0 +1,10 @@
+{
+  "confidence": 0.75,
+  "sleep_extra": 0.0,
+  "image_scale_min": 0.8,
+  "image_scale_max": 1.6,
+  "image_scale_steps": 17,
+  "images_dir": "assets/images",
+  "backup_dir": "assets/backup",
+  "theme_mode": "dark"
+}

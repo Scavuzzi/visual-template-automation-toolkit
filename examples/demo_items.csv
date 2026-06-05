@@ -1,0 +1,6 @@
+item_type,model,x,y,notes
+category_a,alpha-100,120,240,Demo row for a first action family
+category_a,beta-200,180,310,Demo row for a second action family
+category_b,gamma-10,220,420,Demo row for another batch
+category_c,delta-20,260,510,Demo row for a third batch
+
