@@ -1,5 +1,7 @@
 # Visual Template Automation Toolkit
 
+[Prefers to read in Portuguese? Click here.](README-pt-br.md)
+
 A Python toolkit for building desktop automations based on visual templates.
 
 Python | OpenCV | PyAutoGUI | Flet | Desktop Automation | Computer Vision
