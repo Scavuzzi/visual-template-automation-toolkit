@@ -2,11 +2,11 @@
 
 [Prefere ler em ingles? Clique aqui.](README.md)
 
-Um toolkit em Python para criar automacoes desktop baseadas em templates visuais.
+Um motor de reconhecimento visual para automacao desktop, baseado na identificacao de imagens na tela.
 
 Python | OpenCV | PyAutoGUI | Flet | Automacao Desktop | Visao Computacional
 
-O projeto oferece um nucleo reutilizavel de visao computacional, uma interface em Flet para gerenciar imagens de template e um executor de fluxos baseado em CSV/JSON. Ele foi pensado para ser generico: a aplicacao alvo, os templates e os fluxos sao fornecidos pelo usuario.
+O projeto oferece um motor reutilizavel de reconhecimento por imagem, uma interface em Flet para gerenciar templates visuais e um executor de fluxos baseado em CSV/JSON. Ele foi pensado para ser generico: a aplicacao alvo, os templates e os fluxos sao fornecidos pelo usuario.
 
 Este repositorio e uma versao publica de portfolio/demo. Ele nao inclui templates proprietarios, fluxos de producao, nomes de sistemas internos, credenciais ou dados reais de negocio.
 
